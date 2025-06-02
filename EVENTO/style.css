@@ -49,6 +49,14 @@
     flex-wrap: wrap;
 }
 
+.inf{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .informacoes{
     margin-left: 65px;
     color: rgb(255, 255, 255);
@@ -56,6 +64,8 @@
     margin-left: 0px;
     margin-top: 0px;
 }
+
+
 
 .texto{
     font-size: 17px;
