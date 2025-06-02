@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evento</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section>
+        <div class="inicio">
+            <img class = "bebida" src="https://img.freepik.com/fotos-gratis/vista-frontal-diferentes-bebidas-coloridas-dentro-de-garrafas_140725-14407.jpg?semt=ais_hybrid&w=740">
+            <h1 class = "nomefesta">LUCKSRAVE</h1>
+            <img class = "balada" src="https://media.istockphoto.com/id/1279483477/pt/foto/we-are-going-to-party-as-if-theres-no-tomorrow.jpg?s=612x612&w=0&k=20&c=rmnD3Ag-NN3CcvxWy3I92ZY2sz5gA1vDwE0vJCvhscE=">
+        </div>
+    </section>
+    <section>
+        <h2 class="informacoes">Informações</h2>
+       <div class="resto ">
+            <div class ="texto">
+                Classificação: Maior de 18 anos. 
+                Local: Salão Atiradores Indepedência.
+                Data e Hora: 30/07/2024 as 22:00 Horas.
+                Tempo de inscrição: Até dia 28/07.
+                Vagas restantes: 15 Vagas
+            </div>
+            <div class="inscricao">
+                <h2 class="titulo-inscricao">Inscreva-se</h2>
+                <form>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required><br><br>
+            
+                    <label for="idade">Idade:</label><br>
+                    <input type="number" id="idade" name="idade" required min="18"><br><br>
+            
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+            
+                    <label for="senha">Senha:</label><br>
+                    <input type="password" id="senha" name="senha" required><br><br>
+            
+                    <label for="numero">Número:</label><br>
+                    <input type="tel" id="numero" name="numero" required pattern="[0-9]{10,11}" placeholder="Somente números"><br><br>
+            
+                    <button type="submit">Concluir</button>
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
