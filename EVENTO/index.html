@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <button onclick="alternarModo()"> Alternar Modo</button>
+  <script>
+    function alternarModo() {
+      const body = document.body;
+      body.classList.toggle("modo-claro");
+      body.classList.toggle("modo-escuro");
+    }
+  </script>
     <section>
         <div class="inicio">
             <img class = "bebida" src="https://img.freepik.com/fotos-gratis/vista-frontal-diferentes-bebidas-coloridas-dentro-de-garrafas_140725-14407.jpg?semt=ais_hybrid&w=740">
